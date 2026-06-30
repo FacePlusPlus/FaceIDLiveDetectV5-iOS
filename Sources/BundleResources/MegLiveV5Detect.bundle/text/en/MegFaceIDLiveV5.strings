@@ -1,0 +1,78 @@
+/*
+ Localizable.strings
+ MGFaceIDDetect
+ 
+ Created by Megvii on 2026/04/10.
+ Copyright © 2026年 megvii. All rights reserved.
+ */
+
+//  FaceID LiveDetect
+"livenessHomePromptBlinkText"                 =           "Blink eyes";
+"livenessHomePromptOpenMouthText"                 =           "Open mouth";
+"livenessHomePromptShakeHeadText"                 =           "Turn head";
+"livenessHomePromptNodText"                 =           "Nod head";
+"livenessHomePromptFrontalFaceText" = "Position Your Face in the Frame";
+"livenessHomePromptFrontalEyeText" = "Position Your Eyes in the Frame";
+"livenessHomePromptDarkerText" = "Lighting Too Bright";
+"livenessHomePromptBrighterText" = "Insufficient Lighting";
+"livenessHomePromptCloserText" = "Move Forward a Little";
+"livenessHomePromptFurtherText" = "Move Back a Little";
+"livenessHomePromptFrontalFaceInBoundingBoxText" = "Position Your Face in the Frame";
+"livenessHomePromptNoEyesOcclusionText" = "Please avoid eyes occlusion";
+"livenessHomePromptNoMouthOcclusionText" = "Please avoid mouth occlusion";
+"livenessHomePromptStayStillText" = "Hold Still for a Moment";
+"livenessHomePromptHoldWillLightText" = "Please hold, the screen will flash shortly";
+"livenessHomePromptTooBrightText" = "Lighting Too Bright";
+"livenessHomePromptAngleOffsetText" = "Adjust Your Face Upright";
+"livenessHomePromptMotionBlurText" = "Please keep the recording clear";
+"livenessHomePromptGaussianBlurText" = "Please keep the recording clear";
+"livenessHomePromptVerticalText"                 =           "Keep Your Phone Upright";
+"livenessHomeExitPopupwindowTitleText" = "Prompt";
+"livenessHomeExitPopupwindowBodyText" = "Do you confirm to exit verification";
+"livenessHomeExitPopupwindowSureText" = "Confirmed";
+"livenessHomeExitPopupwindowCancelText" = "Cancelled";
+"livenessHomePromptCheckMultiFaceText" = "Ensure single-person recording";
+"livenessHomePromptEnvDarkerText" = "Insufficient Lighting";
+"livenessHomePromptEnvBrighterText" = "Lighting Too Bright";
+"livenessHomePromptFaceEreaText" = "Invalid face area for detection";
+"livenessHomePromptWaitText"                 =           "Verifying";
+"livenessHomeAgreementText" = "《User Agreement》";
+"livenessHomeCreditText" = "《Personal Credit Information Notice》";
+"livenessHomeAgreementpageTopTitleText" = "Live verification";
+"livenessHomeAgreementpageBottomTitleText" = "Face the screen and do not obstruct your face";
+"livenessHomeAgreementpageBottomButtonText" = "START";
+"livenessAgreementTitleText2" = "Read Agreement to Start Face Verification";
+"livenessAgreementDisabledText2" = "Read full agreement (%1$d sec)";
+"livenessAgreementEnableText2" = "I Agree & Start Verification";
+"livenessAgreementLoadingText2" = "Loading Agreement…";
+"livenessAgreementLoadingFailedText2" = "Failed to Load Agreement";
+"livenessAgreementRetryText2" = "Reload";
+"livenessAgreementExitButton2" = "Exit";
+"livenessHomeExitPopupwindowButtonText" = "Close the living";
+"livenessHomeCloserPromptText" = "Slowly move phone close to face";
+"livenessHomeCloserPromptImageText" = "Move phone close to face";
+"livenessHomePromptCorrectActionText" = "The action is wrong";
+"livenessHomeLoadingpageText" = "Configuring loading, please later";
+"livenessHomePromptCoherenceText" = "Action is Incoherent";
+"livenessHomePromptFaceLocationText" = "Keep the face in the frame";
+"livenessHomePromptActionSpeedText" = "Action is too fast";
+"livenessHomePromptMaskText" = "Take off the mask";
+"livenessHomePromptFaceLostText" = "Keep the face in the frame";
+"livenessHomePromptNoFaceText" = "Keep the face in the frame";
+"livenessHomePromptOcclusionText" = "Avoid face occlusion";
+"livenessHomeDynamicActionTimeOutText"                =           "Time out，try again";
+"livenessHomeDynamicActionWrongText"                  =           "Action Wrong，try again";
+"livenessHomeDynamicActionBlinkText"                  =           "";  //  Public cloud SDK dynamic living blink action prompt copywriting. Local configurations are preferred, and when local configurations are empty, the configuration is delivered in the console.
+"livenessHomeDynamicActionOpenMouthText"              =           "";  //  Public cloud SDK dynamic living open mouth action prompt copywriting. Local configurations are preferred, and when local configurations are empty, the configuration is delivered in the console.
+"livenessHomeDynamicActionShakeHeadText"              =           "";  //  Public cloud SDK dynamic living shake head action prompt copywriting. Local configurations are preferred, and when local configurations are empty, the configuration is delivered in the console.
+"livenessHomeDynamicActionNodText"                    =           "";  //  Public cloud SDK dynamic living nod action prompt copywriting. Local configurations are preferred, and when local configurations are empty, the configuration is delivered in the console.
+"livenessHomeDynamicBlinkText"                        =           "Please blink your eyes";
+"livenessHomeDynamicOpenMouthText"                    =           "Please open your mouth";
+"livenessHomeDynamicShakeHeadText"                    =           "Please shake your head";
+"livenessHomeDynamicNodText"                          =           "Please nod your head";
+"livenessHomeActivePromptModeText"                    =           "";  //  Action live up to three lines are supported, please use '\n' for control line wrapping
+"livenessHomeFlashPromptModeText"                     =           "";  //  Flash live up to three lines are supported, please use '\n' for control line wrapping
+"livenessHomeDynamicPromptModeText"                   =           "";  //  Dynamic live up to three lines are supported, please use '\n' for control line wrapping
+"livenessHomeDistancePromptModeText"                  =           "";  //  Distance live up to three lines are supported, please use '\n' for control line wrapping
+"livenessHomeDynamicActionPromptText"                 =           "";  //  Dynamic live up to remind with Confirmed action step.
+"livenessHomeDynamicFlashPromptText"                  =           "";  //  Dynamic live up to remind with Confirmed flash step.
