@@ -26,7 +26,7 @@ FaceID 人脸活体检测 iOS SDK，支持 Swift Package Manager。
 **方式一：Xcode 图形化操作**
 
 1. 在 Xcode 中选择 **File > Add Package Dependencies**
-2. 输入仓库地址：`https://github.com/FacePlusPlus/FaceIDLiveDetectV5-SPM`
+2. 输入仓库地址：`https://github.com/FacePlusPlus/FaceIDLiveDetectV5-iOS.git`
 3. 选择你需要的产品：(本包的四个版本请根据自己的情况选择任意一个，多选会导致编译时符号重复)
    - 中国区：`FaceIDLiveDetectV5CN` 或 `FaceIDLiveDetectV5CNLite`
    - 全球区：`FaceIDLiveDetectV5Global` 或 `FaceIDLiveDetectV5GlobalLite`  
@@ -37,7 +37,7 @@ FaceID 人脸活体检测 iOS SDK，支持 Swift Package Manager。
 ```swift
 dependencies: [
     .package(
-        url: "https://github.com/FacePlusPlus/FaceIDLiveDetectV5-SPM",
+        url: "https://github.com/FacePlusPlus/FaceIDLiveDetectV5-iOS",
         from: "5.8.16"
     )
 ]
@@ -46,7 +46,7 @@ dependencies: [
 然后在目标 target 中引入产品：
 
 ```swift
-.product(name: "FaceIDLiveDetectV5CN", package: "FaceIDLiveDetectV5-SPM")
+.product(name: "FaceIDLiveDetectV5CN", package: "FaceIDLiveDetectV5-iOS")
 ```
 
 ## 依赖的系统库
