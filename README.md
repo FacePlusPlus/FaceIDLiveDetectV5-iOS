@@ -38,7 +38,7 @@ FaceID 人脸活体检测 iOS SDK，支持 Swift Package Manager。
 dependencies: [
     .package(
         url: "https://github.com/FacePlusPlus/FaceIDLiveDetectV5-iOS",
-        from: "5.8.16"
+        from: "5.8.19"
     )
 ]
 ```
@@ -92,9 +92,12 @@ import MegLiveV5Detect
 
 ## SDK 版本
 
-当前版本：**5.8.18**
+当前版本：**5.8.19**
 
 ## 更新日志
+
+### 5.8.19
+- 优化活体完成后的数据上传策略
 
 ### 5.8.18
 - 优化活体检测逻辑
